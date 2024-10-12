@@ -12,7 +12,13 @@
 {
     box-sizing: border-box;
     font-family:"Urbanist",sans-serif ;
-}
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
 h1,h2,h3,h4,h5
 {
     font-family: 'Lexend deca', Geneva, Verdana, sans-serif;
@@ -54,7 +60,7 @@ h1,h2,h3,h4,h5
    
    .bg-main
    {
-    height: 67.5vh !important;
+    height: 77.5vh !important;
    }
    .hero-text p
    {
@@ -119,7 +125,7 @@ h1,h2,h3,h4,h5
   .bg-main
   {
     background-color: black;
-    height: 80vh;
+    height: 82vh;
     position: relative;
   }
   .hero-section container
@@ -193,4 +199,20 @@ h1,h2,h3,h4,h5
    left: 25%;
    top: 5%;
   
+  }
+  .img-card
+  {
+    top:5%;
+    align-self: center;
+    height: auto;
+    width: 50%;
+    border-radius: 2px;
+    display: flex;
+    position: relative;
+    left: 25%;
+    /* width: 50%;
+    left: 25%;
+    top: 10%;
+    position: relative;
+    border-radius: 10px; */
   }
