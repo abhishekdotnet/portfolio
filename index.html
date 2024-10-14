@@ -19,16 +19,16 @@
           <div class="collapse navbar-collapse text-white" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link text-white active text-capitalize disabled" aria-current="page" href="#">home</a>
+                <a class="nav-link text-white active text-capitalize " aria-current="page" href="#top">home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white disabled" href="#">About</a>
+                <a class="nav-link text-white " href="#divskill">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white disabled" href="#">Pricing</a>
+                <a class="nav-link text-white " href="#About">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link text-white disabled" aria-disabled="true"><img width="24" height="24" src="https://img.icons8.com/color/48/india-circular.png" alt="india-circular"/></a>
               </li>
             </ul>
           </div>
@@ -36,7 +36,7 @@
       </nav>
       <!---hero section start-->
       <section class=" bg-main bg-color hero-section">
-       <div class="container mb-0">
+       <div id="top" class="container mb-0">
         <div class="row">
           <div class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center">
             <div class="hero-text">
@@ -77,7 +77,7 @@
        
     </div>
      <!-- expertise-->
-      <div class="container">
+      <div id="divskill" class="container">
      <div class="row">
       <div class="col-12 col-lg-12 col-md-12"><h1 class="text-center fw-bold txt-heading">Expertise</h1></div>
      </div> 
@@ -145,7 +145,7 @@
       </div>
       
       </DIV>
-      <div class="container col-12 mt-2">
+      <div class="container col-12 mt-2" id="About">
         <div class="row">
           <div class="col-12 col-lg-12 col-md-12 mt-2"><h1 class="text-center fw-bold txt-heading">About Me</h1></div>
          </div>
@@ -161,6 +161,34 @@
             I thrive in collaborative environments and am always looking for opportunities to learn and grow. I am excited to bring my blend of .NET development experience and front-end knowledge to a team that values creativity and forward-thinking solutions.</div>
         </div>
       </div>
+      <!---projects-->
+      <div class="container  col-12 mt-2">
+        <div class="row">
+          <div class="col-12 col-lg-12 col-md-12 mt-2"><h1 class="text-center fw-bold txt-heading">Connect with Me!</h1></div>
+         </div> 
+        <div class="card  card-skills d-flex" style="flex-direction: row;">
+          <div class="mt-2 col s4 ms2 text-center">
+            <img src="data:image/png;base64,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">
+<br>(+91) <span class="fw-bold">8922912842</span>
+          </div>
+         
+          <div class="mt-2 col s4 ms2 text-center">
+            <img width="96" height="96" src="https://img.icons8.com/fluency/96/mail--v1.png" alt="mail--v1"/>
+
+            <br><span class="fw-bold">abhishekydv447@gmail.com</span>
+          </div>
+          <div class=" mt-2 col s4 ms2 text-center">
+            <img width="96" height="96" src="https://img.icons8.com/fluency/96/location--v1.png" alt="location--v1"/>
+            <br><span class="fw-bold"> Gorakhpur (UP) India</span>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="container">
+    <footer class="py-3 my-4">
+      
+      <p class="text-center text-body-secondary">© 2024 Abhishek Yadav</p>
+    </footer>
   </div>
   </section>
 
